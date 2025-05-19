@@ -1,3 +1,22 @@
 body {
-    background-color: ;
+    background-color: #F2D1C9;
+    margin: 0;
+}
+
+nav {
+    background-color: white; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 35px; 
+}
+
+nav a {
+    color: #D99791;
+    text-decoration: none; 
+    margin: 0 15px; 
+}
+
+nav a:hover { 
+    color: #79717A; 
 }
