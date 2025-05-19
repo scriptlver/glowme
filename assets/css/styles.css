@@ -24,6 +24,15 @@ nav a:hover {
     color: #79717A; 
 }
 
-.titulo{
-    margin-top: -150px;
+.nome {
+  font-size: 2rem;
+  color: #000000; 
+  margin: 0;
+}
+
+.slogan {
+  font-size: 1rem;
+  color: #a87bdc;
+  margin: 0;
+  margin-left: 20px;
 }
