@@ -11,6 +11,7 @@ nav {
     text-align: center;
     justify-content: center;
     padding: 35px; 
+    position: relative;
 }
 
 nav a {
@@ -24,6 +25,11 @@ nav a:hover {
     color: #79717A; 
 }
 
+.marca{
+    margin-top: -30px;
+    position: absolute;
+}
+
 .nome {
   font-size: 2rem;
   color: #000000; 
@@ -32,7 +38,8 @@ nav a:hover {
 
 .slogan {
   font-size: 1rem;
-  color: #a87bdc;
+  color: #F2D1C9;
   margin: 0;
   margin-left: 20px;
 }
+
