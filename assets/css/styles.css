@@ -25,6 +25,21 @@ nav a:hover {
     color: #79717A; 
 }
 
+.nav-button {
+    background-color: #D99791;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #C27B75;
+}
+
 .marca{
     margin-top: -70px;
     position: absolute;
@@ -42,10 +57,11 @@ nav a:hover {
 }
 
 .slogan {
-  font-size: 0.75rem;
+  font-size: 0.5rem;
   color: #D99696;
-  margin: -6px;
-  margin-left: 23px;
+  margin: -4px;
+  margin-left: 17px;
   font-family: 'Lexend', sans-serif;
+  letter-spacing: 2.5px;
 }
 
