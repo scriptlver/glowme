@@ -65,5 +65,11 @@ nav a:hover {
   letter-spacing: 2.5px;
 }
 
-
+.user{
+    font-size: 23px;
+    color: #D99696;
+    margin-left: 1100px;
+    margin-top: -60px;
+    position: absolute;
+}
 
