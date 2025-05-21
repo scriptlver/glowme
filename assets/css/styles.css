@@ -68,7 +68,7 @@ nav a:hover {
 .user{
     font-size: 23px;
     color: #D99696;
-    margin-left: 1300px;
+    margin-left: 1100px;
     margin-top: -60px;
     position: absolute;
 }
@@ -76,9 +76,17 @@ nav a:hover {
 .home{
     font-size: 23px;
     color: #D99696;
-    margin-left: 1100px;
+    margin-left: 1135px;
     margin-top: -60px;
     position: absolute;
 
+}
+
+.inbox{
+    font-size: 23px;
+    color: #D99696;
+    margin-left: 1180px;
+    margin-top: -60px;
+    position: absolute;
 }
 
