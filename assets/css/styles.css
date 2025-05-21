@@ -65,22 +65,79 @@ nav a:hover {
   letter-spacing: 2.5px;
 }
 
-.user{
+.user {
     font-size: 23px;
     color: #D99696;
     margin-left: 1100px;
     margin-top: -60px;
     position: absolute;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-.home{
+.user:hover {
+    transform: scale(1.2);
+}
+
+.user .tooltip {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    font-size: 14px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+.user:hover .tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(5px);
+}
+
+
+.home {
     font-size: 23px;
     color: #D99696;
     margin-left: 1135px;
     margin-top: -60px;
     position: absolute;
-
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
+
+.home:hover {
+    transform: scale(1.2);
+}
+
+.home .tooltip {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    font-size: 14px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+.home:hover .tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(5px);
+}
+
 
 .inbox {
     font-size: 23px;
