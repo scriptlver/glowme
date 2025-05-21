@@ -82,11 +82,74 @@ nav a:hover {
 
 }
 
-.inbox{
+.inbox {
     font-size: 23px;
     color: #D99696;
     margin-left: 1180px;
     margin-top: -60px;
     position: absolute;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
+.inbox:hover {
+    transform: scale(1.2);
+}
+
+.inbox .tooltip {
+    position: absolute;
+    top: 120%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    font-size: 14px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+.inbox:hover .tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(5px);
+}
+
+.bars {
+    font-size: 23px;
+    color: #D99696;
+    margin-left: 1220px;
+    margin-top: -60px;
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.bars:hover {
+    transform: scale(1.2);
+}
+
+.bars .tooltip {
+    position: absolute;
+    top: 120%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    font-size: 14px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+.bars:hover .tooltip {
+    opacity: 1;
+    transform: translateX(-50%) translateY(5px);
+}
