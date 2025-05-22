@@ -271,3 +271,15 @@ nav a:hover {
   color: #333;
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+}
+
+
+
