@@ -276,6 +276,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.header{
+  display: block;
+  margin-left: 7.2em;
+  margin-right: auto;
+  width: 100em;
+}
+
 
 
 
