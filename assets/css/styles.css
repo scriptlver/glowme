@@ -3,7 +3,7 @@
 
 body {
     background-color: #F2D1C9;
-    margin: 0;
+    margin: auto 0;
 }
 
 nav {
@@ -314,11 +314,19 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.header{
+.header {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
+}
+
+.header img {
+  width: 100vw;
   display: block;
-  margin-left: 7.2em;
-  margin-right: auto;
-  width: 100em;
 }
 
 
