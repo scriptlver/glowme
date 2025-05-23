@@ -276,8 +276,8 @@ nav a:hover {
 
 .see-more-button {
   background-color: transparent;
-  color: #ff4d6d;
-  border: 1px solid #ff4d6d;
+  color: #D96685;
+  border: 1px solid #D96685;
   border-radius: 4px;
   padding: 5px 10px;
   font-size: 12px;
@@ -286,10 +286,9 @@ nav a:hover {
 }
 
 .see-more-button:hover {
-  background-color: #ff4d6d;
+  background-color: #D96685;
   color: #fff;
 }
-
 
 .product-card:hover {
   transform: translateY(-5px);
