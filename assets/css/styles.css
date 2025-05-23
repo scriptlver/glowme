@@ -232,7 +232,9 @@ nav a:hover {
 
 .featured-section h2 {
   font-size: 24px;
+  font-family: 'Lexend', sans-serif;
   margin-bottom: 30px;
+  letter-spacing: 4px;
 }
 
 .product-grid {
@@ -243,14 +245,51 @@ nav a:hover {
 }
 
 .product-card {
-  background-color: #ffe6ec; /* rosa claro */
-  border-radius: 10px;
+  background-color: white;
+  border-radius: 12px;
   padding: 15px;
-  width: 160px;
+  width: 180px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
   transition: transform 0.3s;
 }
+
+.product-image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 8px 0 5px;
+}
+
+.product-description {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.see-more-button {
+  background-color: transparent;
+  color: #ff4d6d;
+  border: 1px solid #ff4d6d;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.see-more-button:hover {
+  background-color: #ff4d6d;
+  color: #fff;
+}
+
 
 .product-card:hover {
   transform: translateY(-5px);
