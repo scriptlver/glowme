@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/lemonmilk');
 @import url('https://fonts.cdnfonts.com/css/lexend');
+@import url('https://fonts.cdnfonts.com/css/manttulcuy');
 
 body {
     background-color: #F2D1C9;
@@ -380,6 +381,28 @@ body {
   font-size: 14px;
   color: #555;
   margin: 10px 0;
+}
+
+.bem-vindo {
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.bem-vindo h2 {
+  font-size: 32px;
+  color: #ad1457;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'manttulcuy', sans-serif;
+}
+
+.bem-vindo h3 {
+  font-size: 20px;
+  color: #d81b60;
+  font-style: italic;
+  font-weight: normal;
 }
 
 
