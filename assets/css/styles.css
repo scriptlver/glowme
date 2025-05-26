@@ -311,6 +311,22 @@ nav a:hover {
   background-color: #c65474;
 }
 
+.product-pricing {
+  margin: 8px 0;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 8px;
+}
+
+.discounted-price {
+  color: #e60000; 
+  font-weight: bold;
+}
+
+
 
 
 body {
@@ -385,4 +401,6 @@ body {
   color: #555;
   margin: 25px 0;
 }
+
+
 
