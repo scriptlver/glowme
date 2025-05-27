@@ -488,8 +488,8 @@ body {
 
 .review-card {
   position: relative;
-  width: 300px;
-  height: 380px;
+  width: 240px;
+  height: 320px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -508,29 +508,40 @@ body {
   left: 16px;
   color: white;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
-  max-width: 200px;
+  max-width: 150px;
+  text-align: left; /* <- Alinha à esquerda */
 }
 
 .review-info h4 {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px; /* menor */
   font-weight: bold;
 }
 
-
 .review-info p {
-  margin: 4px 0 0;
-  font-size: 12px;
+  font-size: 11px;            /* menor tamanho de fonte */
+  line-height: 1.2;           /* reduz o espaçamento entre linhas */
+  margin: 2px 0 0;            /* menos espaço acima e abaixo */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;      /* limita a 3 linhas */
+  -webkit-box-orient: vertical;
 }
+
+
+
 
 .product-thumb {
   position: absolute;
-  bottom: 12px;
-  right: 12px;
-  width: 60px;
-  height: 60px;
-  border-radius: 6px;
-  object-fit: cover;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  bottom: 16px;
+  right: 16px;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: contain;
+  padding: 4px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 2;
 }
+
 
