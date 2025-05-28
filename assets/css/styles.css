@@ -573,6 +573,17 @@ body {
   display: block;
 }
 
+.about-logo {
+  margin-top: 30px;
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .about-container {
   font-family: 'Lexend', sans-serif;
   font-size: 18px;
