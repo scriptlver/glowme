@@ -427,7 +427,7 @@ body {
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #333;
+  color: #D96685;
 }
 
 .logo .dot {
@@ -439,7 +439,9 @@ body {
   margin-bottom: 15px;
 }
 
-.footer-section p,
+.footer-section p{
+  font-size: 10px;
+}
 .footer-section li,
 .footer-section a {
   font-size: 14px;
@@ -509,22 +511,22 @@ body {
   color: white;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
   max-width: 150px;
-  text-align: left; /* <- Alinha à esquerda */
+  text-align: left; 
 }
 
 .review-info h4 {
   margin: 0;
-  font-size: 14px; /* menor */
+  font-size: 14px; 
   font-weight: bold;
 }
 
 .review-info p {
-  font-size: 11px;            /* menor tamanho de fonte */
-  line-height: 1.2;           /* reduz o espaçamento entre linhas */
-  margin: 2px 0 0;            /* menos espaço acima e abaixo */
+  font-size: 11px;           
+  line-height: 1.2;           
+  margin: 2px 0 0;            
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;      /* limita a 3 linhas */
+  -webkit-line-clamp: 3;     
   -webkit-box-orient: vertical;
 }
 
@@ -543,5 +545,32 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   z-index: 2;
 }
+
+.about-section {
+  padding: 60px 20px;
+  background-color: #fff8f5;
+  color: #333;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-container h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: #cc3366;
+}
+
+.about-container p {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+
+
 
 
