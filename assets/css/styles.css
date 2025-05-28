@@ -570,15 +570,16 @@ body {
   margin: 0 auto 20px auto;
   letter-spacing: 5px;
   color: black;
-  text-align: center;
   display: block;
 }
 
 .about-container {
-  font-family: Arial, sans-serif; 
+  font-family: 'Lexend', sans-serif;
   font-size: 18px;
   color: #333;
   text-align: center;
+  margin: 0 auto;
+
 }
 
 
