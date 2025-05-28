@@ -549,7 +549,7 @@ body {
 
 .about-section {
   padding: 60px 20px;
-  background-color: #fff8f5;
+  background-color: white;
   color: #333;
   text-align: center;
   box-sizing: border-box; 
@@ -565,7 +565,7 @@ body {
 }
 
 .sobre {
-  font-size: 24px;
+  font-size: 28px;
   font-family: 'Lexend', sans-serif;
   margin: 0 auto 20px auto;
   letter-spacing: 5px;
@@ -574,8 +574,8 @@ body {
 }
 
 .about-logo {
-  margin-top: 30px;
-  max-width: 150px;
+  margin-top: 10px;
+  max-width: 180px;
   width: 100%;
   height: auto;
   display: block;
