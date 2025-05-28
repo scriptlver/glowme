@@ -555,6 +555,7 @@ body {
   box-sizing: border-box; 
   width: 100vw;
   margin: 0;
+  
 }
 
 .about-container {
@@ -563,10 +564,21 @@ body {
   width: 100vw;
 }
 
-.about-container p {
-  font-size: 17px;
-  line-height: 1.7;
-  margin-bottom: 16px;
+.sobre {
+  font-size: 24px;
+  font-family: 'Lexend', sans-serif;
+  margin: 0 auto 20px auto;
+  letter-spacing: 5px;
+  color: black;
+  text-align: center;
+  display: block;
+}
+
+.about-container {
+  font-family: Arial, sans-serif; 
+  font-size: 18px;
+  color: #333;
+  text-align: center;
 }
 
 
