@@ -4,7 +4,7 @@
 
 body {
     background-color: #F2D1C9;
-    margin: auto;
+    margin: 0 auto;
 }
 
 nav {
@@ -551,17 +551,15 @@ body {
   background-color: #fff8f5;
   color: #333;
   text-align: center;
+  box-sizing: border-box; 
+  width: 100vw;
+  margin: 0;
 }
 
 .about-container {
   max-width: 800px;
-  margin: 0 auto;
-}
-
-.about-container h2 {
-  font-size: 32px;
-  margin-bottom: 24px;
-  color: #cc3366;
+  margin: 0;
+  width: 100vw;
 }
 
 .about-container p {
