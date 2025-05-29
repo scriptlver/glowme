@@ -9,7 +9,7 @@ body {
 
 * {
   box-sizing: border-box;
-  max-width: 100%;
+  max-width: 100vw;
 }
 
 nav {
@@ -558,12 +558,11 @@ nav a:hover {
   color: #333;
   text-align: center;
   box-sizing: border-box; 
-  width: 80vw;
-  margin: 0;
+  width: 60vw;
+  margin: 40px auto;
   font-family: 'Lexend', sans-serif;
   border-radius: 50px;
-  justify-content: center;
-  align-items: center;
+  align
   
 }
 
@@ -578,7 +577,7 @@ nav a:hover {
 
 .about-logo {
   margin-top: 10px;
-  max-width: 180px;
+  max-width: 160px;
   width: 100%;
   height: auto;
   display: block;
@@ -586,9 +585,8 @@ nav a:hover {
   margin-right: auto;
 }
 
-
 .about-container {
-  max-width: 800px;
+  max-width: 1000px;
   width: 90%;
   margin: 0 auto;
   padding: 40px;
@@ -597,7 +595,9 @@ nav a:hover {
   color: #333;
   text-align: center;
   border-radius: 40px;
+  margin-top: -50px;
 }
+
 
 
 
