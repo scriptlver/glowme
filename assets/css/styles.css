@@ -558,16 +558,13 @@ nav a:hover {
   color: #333;
   text-align: center;
   box-sizing: border-box; 
-  width: 100vw;
+  width: 80vw;
   margin: 0;
   font-family: 'Lexend', sans-serif;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
   
-}
-
-.about-container {
-  max-width: 800px;
-  margin: 0;
-  width: 100vw;
 }
 
 .sobre {
@@ -591,14 +588,17 @@ nav a:hover {
 
 
 .about-container {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
   font-family: 'Lexend', sans-serif;
   font-size: 18px;
   color: #333;
   text-align: center;
-  margin: 0 auto;
-  border-radius: 200px;
-
+  border-radius: 40px;
 }
+
 
 
 
