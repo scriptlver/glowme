@@ -9,7 +9,7 @@ body {
 
 * {
   box-sizing: border-box;
-  max-width: 100vw;
+  max-width: 100%;
 }
 
 nav {
@@ -234,6 +234,7 @@ nav a:hover {
 .featured-section {
   padding: 40px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .featured-section h2 {
@@ -337,9 +338,10 @@ nav a:hover {
   position: relative;
   left: 50%;
   right: 50%;
-  margin-left: -50vw;
+  margin-left: -49.5vw;
   margin-right: -50vw;
   overflow: hidden;
+  margin-top: 30px;
 }
 
 .header img {
@@ -353,7 +355,7 @@ nav a:hover {
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 95px;
+  margin-top: 105px;
 }
 
 .card {
