@@ -249,7 +249,7 @@ nav a:hover {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  margin-top: -20px;
+  margin-top: -15px;
 }
 
 .product-container {
@@ -258,6 +258,7 @@ nav a:hover {
   gap: 30px;
   justify-content: center;
   padding: 40px 20px;
+  margin-top: -10px;
 }
 
 .product-card {
@@ -504,6 +505,7 @@ nav a:hover {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 48px;
 }
 
 .review-card {
