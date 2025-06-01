@@ -289,8 +289,8 @@ nav a:hover {
 .product-card {
   background-color: white;
   border-radius: 10px;
-  padding: 15px;
-  width: 200px;
+  padding: 20px;
+  width: 210px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s;
@@ -706,7 +706,6 @@ nav a:hover {
   line-height: 1.6;
   font-family: 'lexend', sans-serif;
 }
-
 
 
 
