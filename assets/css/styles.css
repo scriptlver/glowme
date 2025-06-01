@@ -58,12 +58,27 @@ nav a:hover {
   margin: 0;
   font-family: 'Lemon/Milk', sans-serif;
   letter-spacing: 2px; 
-  
+}
 
+.nome2 {
+  font-size: 1.8rem;
+  color: #000000; 
+  margin: 0;
+  font-family: 'Lemon/Milk', sans-serif;
+  letter-spacing: 2px; 
 }
 
 .slogan {
   font-size: 0.51rem;
+  color: #D99696;
+  margin: -4px;
+  margin-left: 17px;
+  font-family: 'Lexend', sans-serif;
+  letter-spacing: 2.5px;
+}
+
+.slogan2 {
+  font-size: 0.3rem;
   color: #D99696;
   margin: -4px;
   margin-left: 17px;
