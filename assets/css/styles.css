@@ -710,3 +710,26 @@ nav a:hover {
 
 
 
+
+@media screen(max-width: 400px){
+  .user {
+    margin-left: 1000px;
+  }
+
+  .home {
+    margin-left: 1040px;
+  }
+
+  .inbox {
+    margin-left: 1080px;
+  }
+
+  .bars {
+    margin-left: 1120px;
+  }
+
+  .marca {
+    right: 800px;
+  }
+
+}
