@@ -615,7 +615,6 @@ nav a:hover {
   margin: 40px auto;
   font-family: 'Lexend', sans-serif;
   border-radius: 50px;
-  align
   
 }
 
@@ -625,7 +624,7 @@ nav a:hover {
   margin: 0 auto 20px auto;
   letter-spacing: 5px;
   color: black;
-  display: block;
+  display:block;
 }
 
 .about-logo {
@@ -705,31 +704,4 @@ nav a:hover {
   color: #444;
   line-height: 1.6;
   font-family: 'lexend', sans-serif;
-}
-
-
-
-
-
-@media screen(max-width: 400px){
-  .user {
-    margin-left: 1000px;
-  }
-
-  .home {
-    margin-left: 1040px;
-  }
-
-  .inbox {
-    margin-left: 1080px;
-  }
-
-  .bars {
-    margin-left: 1120px;
-  }
-
-  .marca {
-    right: 800px;
-  }
-
 }
