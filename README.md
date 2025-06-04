@@ -1,45 +1,62 @@
-# 💖 glowme website 💄✨
+# 💖 GLOWME website 💖
 
-olá! bem-vindo(a) 💬
+olá, seja bem-vindo(a)! ✨
 
-esse é o meu **segundo site**, desenvolvido sozinha com **html e css**!  
-criei com muito carinho para expressar minha paixão pelo universo da **maquiagem e do autoamor**, com uma estética suave, feminina e cheia de brilho ✨💗
+a **GlowMe** é uma marca fictícia de maquiagem que celebra o brilho único de cada pessoa ✨. a ideia foi explorar uma estética suave, feminina e cheia de brilho 💗, enquanto praticava **design visual** e **desenvolvimento front-end** de forma leve e divertida.
+
+---
 
 ## 💭 o que você vai encontrar
 
-📝 **no site, você vai poder:**
+📝 **no site, você poderá:**
 
-- 🎨 ver uma paleta de cores inspirada em tons rosados e delicados  
-- 🧼 explorar dicas de beleza e cuidados com a pele  
-- 💡 descobrir um layout feito com muito capricho usando grid  
-- 💫 curtir transições suaves e efeitos visuais fofinhos  
+* 💗 explorar uma paleta de cores em tons rosados e delicados
+* 💗 ler dicas de beleza e cuidados com a pele
+* 💗 ver um layout baseado em **CSS Grid**
+* 💗 experimentar transições suaves e efeitos visuais encantadores
+
+---
 
 ## 💡 sobre o projeto
 
-fiz tudo com muito carinho, explorando e aprendendo mais sobre html, css, **grid layout**, **transições** e estilizações com identidade visual bem marcada!  
-espero que goste! 💗
+o site foi desenvolvido utilizando **HTML** e **CSS**, com foco em:
+
+* layout responsivo com grid e flexbox
+* icones do font awesome
+* estilização com identidade visual consistente
+* animações suaves para uma experiência agradável
+
+---
 
 ## 🛠️ tecnologias utilizadas
 
-- html  
-- css  
+* HTML
+* CSS
 
-## 🌐 acesso ao site
+---
 
-você pode visitar o projeto aqui:  
-🔗 [glowme](https://seulinkdoprojeto.com) ← *(substitua com o link real)*
+## 🌐 acesse o site
 
-## 📸 prévias
+🔗 [GlowMe](https://seulinkdoprojeto.com) *(substitua com seu link real)*
 
-![screenshot 1](readme/1.png)  
-![screenshot 2](readme/2.png)  
-![screenshot 3](readme/3.png)  
-![screenshot 4](readme/4.png)  
+---
+
+## 📸 pré-visualizações
+
+![screenshot 1](/assets/img/print1.png)
+![screenshot 2](/assets/img/print2.png)
+![screenshot 3](/assets/img/print3.png)
+![screenshot 4](/assets/img/print4.png)
+
+---
 
 ## 🤝 contribuições
 
-ideias e sugestões são super bem-vindas! 🌷
+sugestões e ideias são sempre bem-vindas! 🌷
+
+---
 
 ## ⚠️ aviso
 
-este projeto é apenas para fins educacionais e de entretenimento.
+este projeto é fictício e feito apenas para fins educacionais e de portfólio. nenhum produto está realmente à venda.
+
