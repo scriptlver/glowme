@@ -33,7 +33,7 @@ o site foi desenvolvido utilizando **HTML** e **CSS**, com foco em:
 
 ## 🌐 acesse o site
 
-🔗 [GlowMe](https://seulinkdoprojeto.com) *(substitua com seu link real)*
+🔗 [GlowMe](https://scriptlver.github.io/glowme/)
 
 
 ## 📸 algumas prévias
