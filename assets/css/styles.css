@@ -1202,19 +1202,29 @@ html {
     font-size: 16px;
   }
 
+  .register-terms input[type="checkbox"] {
+    transform: scale(1); 
+    margin-top: -1px;        
+    cursor: pointer;
+  }
+
+  .register-terms-text {
+    font-size: 14px;        
+    line-height: 1.5;       
+    cursor: pointer;
+  }
 
   .login-logo, .login-logo-slogan, .login-menu-icon{
     display: none !important;
   }
 
   .login-container {
-    max-width: 440px;
+    max-width: 480px;
     padding: 56px 44px;
   }
 
   .login-title {
-    font-size: 2.2rem;
-    margin-bottom: 32px;
+    font-size: 45px;
   }
 
   .login-field {
