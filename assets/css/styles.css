@@ -960,6 +960,21 @@ html {
   cursor: pointer;
 }
 
+.register-button {
+  padding: 12px;
+  background-color: #f2d1c9;
+  border-radius: 12px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 0.5px solid #c4b7b7;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.register-button:hover {
+  opacity: 0.8;
+}
+
 /* login */
 .login-container {
   max-width: 400px;
@@ -1166,6 +1181,27 @@ html {
   .register-menu-icon {
     display: none !important;
   }
+
+  .register-header {
+    margin-bottom: 25px;
+  }
+
+  .register-title {
+    font-size: 45px;
+  }
+
+  .register-container {
+    max-width: 480px;
+  }
+
+  .register-form {
+    max-width: 970px;
+  }
+
+  .register-label{
+    font-size: 16px;
+  }
+
 
   .login-logo, .login-logo-slogan, .login-menu-icon{
     display: none !important;
